@@ -1,0 +1,63 @@
+
+h2 {
+    text-align: center;
+    text-transform: capitalize;
+    border-bottom: 3px solid;
+    padding-bottom: 10px;
+}
+ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    width: 60%;
+}
+ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    display: block;
+
+}
+.groub-input{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+input{
+    width: 40%;
+    border: white;
+    outline: 1px solid blue;
+    height: 22px;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 3px;
+}
+textarea{
+    width: 40%;
+    border-color: blue
+}
+label{
+    width: 12%;
+    width: 12%;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+button{
+    border: navajowhite;
+    width: 200px;
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 5px;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+}
+.valid{
+    border: 2px solid green;
+}
+.novalid{
+    border: 2px solid red;
+}
