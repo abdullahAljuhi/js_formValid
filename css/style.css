@@ -30,7 +30,7 @@ input{
     outline: 1px solid blue;
     height: 22px;
     box-sizing: border-box;
-    padding: 5px;
+    padding: 10px;
     border-radius: 3px;
 }
 textarea{
